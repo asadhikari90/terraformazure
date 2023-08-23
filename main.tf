@@ -4,6 +4,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "RG" {
-  name     = "testRG"
+  name     = "testrgmaven"
   location = "eastus"
 }
